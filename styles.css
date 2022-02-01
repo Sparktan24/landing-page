@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.wrapper{
+    font-family: Roboto;
+}
+.body{
+    text-align: center;
+}
+
+.header, .footer{
+    background-color: #1f2937;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+.main-text, .logo-text{
+    color: #f9faf8;
+}
+
+.main-text{
+    
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.logo-text{
+    font-size: 24px;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 550px;
+}
+
+.secondary-text, .header-links, .button button{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.secondary-text{
+    text-align: left;
+}
+
+.call-to-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.button button, .call-to-action-banner{
+    background-color: #3882f6;
+}
+
+.call-to-action-banner{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 100px;
+    padding: 40px 50px;
+    margin: 50px 200px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.information-header-text, .quote-section{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.quote-section{
+    display: flex;
+    background-color: #e5e7eb;
+    font-weight: lighter;
+    font-style: italic;
+    margin: 0px;
+    padding: 80px;
+    justify-content: center;
+    text-align: left;
+}
+.quote-section div{
+    flex: 0 1 25em;
+}
+
+.header-links ul{
+    display: flex;
+    gap: 16px;
+    padding: 20px;
+    margin: 0px;
+    list-style: none;
+}
+
+.header-up-flex, .header-down-flex{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-down-flex{
+    padding: 40px;
+}
+
+
+.flex-container-column{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 450px;
+    flex: 0 0 auto;
+}
+.button button{
+    border-radius: 8px;
+    padding: 8px 30px;
+    border: none;
+    margin-top: 20px;
+}
+.banner-btn button{
+    border: 2px solid #e5e7eb;
+}
+
+img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.info-boxes{
+    display: flex;
+    gap:30px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.box{
+    max-width: 200px;
+}
